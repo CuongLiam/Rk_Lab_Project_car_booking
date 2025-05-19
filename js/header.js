@@ -1,3 +1,15 @@
+// document.addEventListener("DOMContentLoaded", function () {
+//   const navLinks = document.querySelectorAll(".nav-main .nav-link");
+//   navLinks.forEach((link) => {
+//     link.addEventListener("click", function () {
+//       // Remove active classes from all
+//       navLinks.forEach((l) => l.classList.remove("active", "custom-active"));
+//       // Add to clicked
+//       this.classList.add("active", "custom-active");
+//       // No preventDefault, allow normal navigation
+//     });
+//   });
+// });
 document.addEventListener("DOMContentLoaded", function () {
   const navLinks = document.querySelectorAll(".nav-main .nav-link");
   navLinks.forEach((link) => {
