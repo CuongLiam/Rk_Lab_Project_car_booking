@@ -123,6 +123,12 @@
   display: flex;
   justify-content: center;
 }
+#route-link{
+  width: 143px;
+
+  display: flex;
+  justify-content: center;
+}
 #check-ticket-link{
   width: 105px;
 
